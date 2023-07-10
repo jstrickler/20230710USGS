@@ -1,0 +1,176 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"check __name__": {
+		"Insert 'if __name__ == \"__main__\"'",
+		"prefix": "main",
+		"body": [
+			"if __name__ == \"__main__\":",
+			"    $0",
+		]
+	},
+	"prop": {
+		"description": "Insert property getter",
+		"prefix": "prop",
+		"body": [
+			"@property",
+			"def ${1:propname}(self):",
+			"    return self._${1:propname}",
+			"$0"
+		]
+	},
+	"props": {
+		"description": "Insert property getter and setter",
+		"prefix": "props",
+		"body": [
+			"@property",
+			"def $1(self):",
+			"    return self._$1",
+            "",
+			"@$1.setter",
+			"def $1(self, value):",
+			"    self._$1 = value",
+			"$0"
+		]
+	},
+	"print object": {
+		"description": "print one object",
+		"prefix": "p_",
+		"body": [
+			"print(f\"${expr}: {${expr}}\")",
+			"$0"
+		]
+	},
+	"print object newline": {
+		"description": "Print one object followed by an extra newline",
+		"prefix": "p+",
+		"body": [
+			"print(f\"${expr}: {${expr}}\\n\")",
+			"$0"
+		]
+	},
+
+	"print line": {
+		"description": "print a line of dashes",
+		"prefix": "p-",
+		"body": [
+			"print('-' * 60)",
+			"$0"
+		]
+	},
+	"constructor": {
+		"description": "insert __init__() method",
+		"prefix": "_in",
+		"body": [
+			"def __init__(self, $0):",
+			"    pass",
+			""
+		]
+	},
+	"str method": {
+		"description": "insert __str__() method",
+		"prefix": "_str",
+		"body": [
+			"def __str__(self):",
+			"    $0",
+			""
+		]
+	},
+	"insert class": {
+		"description": "insert a class",
+		"prefix": "cl_",
+		"body": [
+			"class $1:",
+			"",
+			"    def __init__(self, $2):",
+			"        pass",
+			"$0"
+		]
+
+	},
+
+	"insert airport dictionary": {
+		"description": "Insert a dictionary of airport codes and names",
+		"prefix": "adict",
+		"body": [
+			"airports = {",
+			"   'EWR': 'Newark',",
+			"   'YYZ': 'Toronto',",
+			"   'SJU': 'San Juan',",
+			"   'MCI': 'Kansas City',",
+			"   'SFO': 'San Francisco',",
+			"   'RDU': 'Raleigh-Durham',",
+			"   'LTN': 'London',  # (Luton)",
+			"   'LGW': 'London',  # (Gatwick)",
+			"   'LHR': 'London',  # (Heathrow)",
+			"   'SJC': 'San Jose',",
+			"   'MCO': 'Orlando',",
+			"   'YCC': 'Calgary',",
+			"   'ABQ': 'Albuquerque',",
+			"   'OAK': 'Oakland',",
+			"   'SMF': 'Sacramento',",
+			"   'YOW': 'Ottawa',",
+			"   'IAD': 'Dulles',",
+			"}",
+			"$0"
+		]
+	},
+	"insert computer people": {
+		"description": "Insert a list of computer people tuples",
+		"prefix": "cpeople",
+		"body": [
+			"people = [",
+			"    ('Melinda', 'Gates', 'Gates Foundation', '1964-08-15'),",
+			"    ('Steve', 'Jobs', 'Apple', '1955-02-24'),",
+			"    ('Larry', 'Wall', 'Perl', '1954-09-27'), ",
+			"    ('Paul', 'Allen', 'Microsoft', '1953-01-21'),",
+			"    ('Larry', 'Ellison', 'Oracle', '1944-08-17'),",
+			"    ('Bill', 'Gates', 'Microsoft', '1955-10-28'),",
+			"    ('Thomas', 'Kurtz', 'BASIC', '1928-02-28'),",
+            "    ('Ada', 'Lovelace', 'Analytical Engine', '1815-12-10'),",
+			"    ('Grace', 'Hopper', 'COBOL', '1906-12-09'),",
+			"    ('Mark', 'Zuckerberg', 'Facebook', '1984-05-14'),",
+			"    ('Sergey','Brin', 'Google', '1973-08-21'),",
+			"    ('Larry', 'Page', 'Google', '1973-03-26'),",
+			"    ('Linus', 'Torvalds', 'Linux', '1969-12-28'),",
+			"]",	
+			"$0"
+		]
+	},
+	"insert lower case fruits": {
+		"description": "Insert a list of fruits in lower case",
+		"prefix": "fruitlc",
+		"body": [
+			"fruits = ['pomegranate', 'cherry', 'apricot', 'apple',",
+			"'lemon', 'kiwi', 'orange', 'lime', 'watermelon', 'guava',",
+			"'papaya', 'fig', 'pear', 'banana', 'tamarind', 'persimmon',",
+			"'elderberry', 'peach', 'blueberry', 'lychee', 'grape', 'date' ]",
+			"$0"	
+		]
+	},
+	"insert mixed case fruits": {
+		"description": "Insert a list of fruits in mixed case",
+		"prefix": "fruitmc",
+		"body": [
+			"fruits = ['pomegranate', 'cherry', 'apricot', 'Apple',",
+			"'lemon', 'Kiwi', 'ORANGE', 'lime', 'Watermelon', 'guava', ",
+			"'Papaya', 'FIG', 'pear', 'banana', 'Tamarind', 'Persimmon', ",
+			"'elderberry', 'peach', 'BLUEberry', 'lychee', 'GRAPE', 'date' ]",	
+			"$0"
+		]
+
+	},
+}
+
