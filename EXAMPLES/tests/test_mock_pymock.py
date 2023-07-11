@@ -6,7 +6,6 @@ class SpamSearch():  # System under test
         self.search_string = search_string
         self.target_string = target_string
 
-
     def findit(self):  # Specific method to test (uses re.search)
         return re.search(self.search_string, self.target_string)
 

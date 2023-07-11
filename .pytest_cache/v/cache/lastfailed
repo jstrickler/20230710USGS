@@ -1,0 +1,4 @@
+{
+  "EXAMPLES/tests/test_mock_data.py": true,
+  "EXAMPLES/tests/test_mock_pymock_barbecue.py": true
+}

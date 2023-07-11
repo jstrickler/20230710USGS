@@ -1,0 +1,30 @@
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero
+ERROR:root:Logging with exception info
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\py3usgs_1.0\py3usgs\EXAMPLES\logging_exception.py", line 11, in <module>
+    result = i/0
+ZeroDivisionError: division by zero

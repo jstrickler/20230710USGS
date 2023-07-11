@@ -1,0 +1,42 @@
+INFO:__main__:Starting main script
+WARNING:apple:ambergris
+INFO:apple:arrivederci
+ERROR:apple:aspiration
+DEBUG:apple:Function apple()
+WARNING:banana:bravo
+INFO:banana:Barbarella
+ERROR:banana:broccoli
+DEBUG:banana:banana()
+WARNING:cherry:ciao bello
+INFO:cherry:Cartesian
+ERROR:cherry:cobblestones
+DEBUG:cherry:Function cherry()
+INFO:__main__:Ending main script
+INFO:__main__:Starting main script
+WARNING:apple:ambergris
+INFO:apple:arrivederci
+ERROR:apple:aspiration
+DEBUG:apple:Function apple()
+WARNING:banana:bravo
+INFO:banana:Barbarella
+ERROR:banana:broccoli
+DEBUG:banana:banana()
+WARNING:cherry:ciao bello
+INFO:cherry:Cartesian
+ERROR:cherry:cobblestones
+DEBUG:cherry:Function cherry()
+INFO:__main__:Ending main script
+INFO:__main__:Starting main script
+WARNING:apple:ambergris
+INFO:apple:arrivederci
+ERROR:apple:aspiration
+DEBUG:apple:Function apple()
+WARNING:banana:bravo
+INFO:banana:Barbarella
+ERROR:banana:broccoli
+DEBUG:banana:banana()
+WARNING:cherry:ciao bello
+INFO:cherry:Cartesian
+ERROR:cherry:cobblestones
+DEBUG:cherry:Function cherry()
+INFO:__main__:Ending main script

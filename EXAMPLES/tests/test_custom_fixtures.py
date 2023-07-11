@@ -28,7 +28,6 @@ def test_spam_has_get_five_method(spam):
 def test_some_color_is_pink(colors):
     assert any(color == 'pink' for color in colors)
 
-@pytest.mark.beforeafter
 def test_beforeafter(before_after, colors):
     assert before_after == 100
     assert 'green' in colors

@@ -78,3 +78,11 @@ class President():
     @property
     def party(self):
         return self._party
+
+if __name__ == "__main__":
+    p = President(26)
+    print(f"p: {p}")
+    print(f"p.first_name: {p.first_name}")
+    print(f"p.last_name: {p.last_name}")
+    
+    

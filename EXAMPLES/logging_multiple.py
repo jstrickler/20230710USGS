@@ -42,7 +42,7 @@ testlogger.propagate = False # don't use default logger
 
 testlogger.addHandler(stream_handler)
 testlogger.addHandler(file_handler)
-# testlogger.addHandler(email_handler)
+testlogger.addHandler(email_handler)
 
 # list handlers
 print("HANDLERS:")
@@ -66,3 +66,6 @@ testlogger.warning("lambda")
 testlogger.warning("mu")
 testlogger.warning("nu")
 testlogger.critical("rho")
+value = 85
+testlogger.debug("value is %d", value)
+

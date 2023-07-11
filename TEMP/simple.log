@@ -1,0 +1,15 @@
+WARNING:root:This is a warning
+ERROR:root:This is an ERROR
+CRITICAL:root:This is ***CRITICAL***
+WARNING:root:This is a warning
+DEBUG:root:This message is for debugging
+ERROR:root:This is an ERROR
+CRITICAL:root:This is ***CRITICAL***
+INFO:root:The capital of North Dakota is Bismark
+DEBUG:root:some more details.....
+WARNING:root:This is a warning
+DEBUG:root:This message is for debugging
+ERROR:root:This is an ERROR
+CRITICAL:root:This is ***CRITICAL***
+INFO:root:The capital of North Dakota is Bismark
+DEBUG:root:some more details.....

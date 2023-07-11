@@ -1,0 +1,12 @@
+INFO      TestLogger 07/11/23 13:58:19 beta
+WARNING   TestLogger 07/11/23 13:58:19 gamma
+ERROR     TestLogger 07/11/23 13:58:19 delta
+CRITICAL  TestLogger 07/11/23 13:58:19 epsilon
+WARNING   TestLogger 07/11/23 13:58:21 zeta
+WARNING   TestLogger 07/11/23 13:58:21 eta
+CRITICAL  TestLogger 07/11/23 13:58:21 theta
+ERROR     TestLogger 07/11/23 13:58:22 kappa
+WARNING   TestLogger 07/11/23 13:58:22 lambda
+WARNING   TestLogger 07/11/23 13:58:22 mu
+WARNING   TestLogger 07/11/23 13:58:22 nu
+CRITICAL  TestLogger 07/11/23 13:58:22 rho

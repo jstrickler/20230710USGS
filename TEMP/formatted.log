@@ -1,0 +1,4 @@
+INFO root 07/11/23::12:45:17 logging_formatted.py 11 this is information
+WARNING root 07/11/23::12:45:17 logging_formatted.py 12 this is a warning
+INFO root 07/11/23::12:45:17 logging_formatted.py 13 this is information
+CRITICAL root 07/11/23::12:45:17 logging_formatted.py 14 this is critical

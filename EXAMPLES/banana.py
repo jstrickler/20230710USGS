@@ -3,6 +3,7 @@ Demonstrate logging from modules
 """
 import logging
 logger = logging.getLogger(__name__)
+# logger.setLevel(logging.DEBUG)
 
 def banana():
     logger.warning("bravo")
