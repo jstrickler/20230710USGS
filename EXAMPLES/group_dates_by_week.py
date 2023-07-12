@@ -24,7 +24,7 @@ def generate_sample_dates():
     for month, days in date_details:
         for i in range(1, days + 1):
             for _ in range(randint(1, 3)):
-                date = Date(2014, month, i)
+                date = Date(2023, month, i)
                 dates.append(date)
     return dates
 

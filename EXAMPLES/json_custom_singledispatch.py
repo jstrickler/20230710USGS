@@ -46,11 +46,15 @@ def encode(obj):
 def encode_date(date_obj):
     return date_obj.isoformat()
 
+@encode.register(datetime)
+def encode_dt(dt_obj):
+    return dt_obj.isoformat()
 
 @encode.register(Parrot)
-def encode_parrot(parrot_obj):
+def encode_parrot(parrot_obj):  # parrot_obj.__dict__
     return {'name': parrot_obj.name, 'color': parrot_obj.color}
 
+    
 
 # register other encoding functions here
 

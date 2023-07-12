@@ -2,11 +2,11 @@ from collections import Counter, defaultdict, deque, namedtuple, OrderedDict
 
 # Counter
 with open('../DATA/words.txt') as words_in:
-    all_words = [line[0] for line in words_in]
-    word_counter = Counter(all_words)  # Count list of words by passing iterable of words to Counter instance
+    letters = [line[0] for line in words_in]
+    letter_counts = Counter(letters)  # Count list of words by passing iterable of words to Counter instance
 
 
-print(word_counter.most_common(10))  # Counter.most_common() return n most common occurrences
+print(letter_counts)  # Counter.most_common() return n most common occurrences
 print('-' * 60)
 
 # defaultdict
@@ -54,3 +54,14 @@ print(p)
 print(p.first_name, p.last_name)
 print('-' * 60)
 
+
+
+mydata = defaultdict(lambda: None)
+
+mydata['foo'] = "wombat"
+mydata['bar'] = "gnu"
+
+print(f"mydata['foo']: {mydata['foo']}")
+print(f"mydata['blah']: {mydata['blah']}")
+
+print(mydata)

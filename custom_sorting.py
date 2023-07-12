@@ -18,7 +18,7 @@ print(f"w: {w}\n")
 f2 = sorted(fruits, key=len)
 print(f"f2: {f2}\n")
 
-def by_len_and_lower(item):
+def by_len_and_lower(item: str) -> tuple:
     sort_keys = len(item), item.lower()
     # print(f"sorting {item} as {sort_keys}")
     return sort_keys

@@ -5,7 +5,7 @@ from functools import reduce
 values = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 # sum()
-result = reduce(add, values) # add values in list (initial value defaults to 0)
+result = reduce(add, values) # add values in list (initial value defaults to iterable[0])
 print("result is", result)
 
 # sum() + 1000
@@ -16,7 +16,7 @@ print("result is", result)
 result = reduce(mul, values)  # multiply all values together (initial value is 1, otherwise product would be 0)
 print("result is", result)
 
-strings = ['fi', 'fi', 'fo', 'fum']
+strings = ['fee', 'fi', 'fo', 'fum']
 
 # join
 result = reduce(add, strings, "") # concatenate strings (initial value is empty string; each string in iterable added to it)
