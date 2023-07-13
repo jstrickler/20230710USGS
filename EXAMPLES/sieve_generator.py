@@ -13,3 +13,6 @@ def next_prime(limit):
 np = next_prime(200)  # next_prime() returns a generator object
 for prime in np:  # iterate over yielded primes
     print(prime, end=' ')
+print()
+
+print(list(next_prime(25)))
