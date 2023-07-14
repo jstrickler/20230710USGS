@@ -1,0 +1,11 @@
+{
+    "package_name": "Package Name (can have spaces)",
+    "package_slug": "{{ cookiecutter.package_name.lower().replace(' ','').replace('-','_') }}",
+    "package_description": "Short Description of the Package", 
+    "module_slug": "{{ cookiecutter.package_slug }}",
+    "author_name": "Author Name",
+    "author_email": "Author Email",
+    "author_url": "Author URL",
+    "copyright_year": "2023"
+}
+

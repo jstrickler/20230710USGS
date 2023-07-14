@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# the above is required
+
+##################################################
+# used when only using this file, not setup.cfg
+##################################################
+
+[project]
+name = "{{cookiecutter.module_slug}}"
+version = "1.0.0"
+authors = [
+    { name="{{cookiecutter.author_name}}", email="{{cookiecutter.author_email}}" },
+]
+description = "{{cookiecutter.module_description}}"
+readme = "README.{{cookiecutter.readme_extension}}"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+#    'roman >= 3.0',
+#    'requests[security] < 3',
+#    'subprocess32; python_version < "3.2"',
+]
+
+#[tool.setuptools]
+#packages=["temperature"]
+
+# [project.scripts]
+# script1='{{cookiecutter.module_slug}}:_cli_script1'
+# script2='{{cookiecutter.module_slug}}:_cli_script2'
+
+{% if cookiecutter.author_url != "Author URL" %}
+[project.urls]
+"Homepage" = "{{cookiecutter.author_url}}"
+{% endif %}

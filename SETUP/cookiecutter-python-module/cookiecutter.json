@@ -1,0 +1,11 @@
+{
+    "module_name": "Module Name (can have spaces)",
+    "module_slug": "{{ cookiecutter.module_name.lower().replace(' ', '').replace('-', '_') }}",
+    "module_description": "Short Description of the Module",
+    "author_name": "Author Name",
+    "author_email": "Author Email",
+    "author_url": "Author URL",
+    "copyright_year": "2023",
+    "readme_extension": "rst"
+}
+
