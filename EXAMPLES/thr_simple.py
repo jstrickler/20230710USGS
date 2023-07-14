@@ -3,6 +3,8 @@ from threading import Thread
 import random
 import time
 
+mydata = []
+
 
 class SimpleThread(Thread):
     def __init__(self, num):
@@ -14,7 +16,7 @@ class SimpleThread(Thread):
         print("Hello from thread {}".format(self._threadnum))
 
 
-for i in range(10):
+for i in range(16):
     t = SimpleThread(i)  # create the thread
     t.start()  # launch the thread
 

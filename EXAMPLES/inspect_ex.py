@@ -28,7 +28,7 @@ for thing in things:
     ))
 
 print()
-def spam(p1, p2='a', *p3, p4, p5='b', **p6):  # define a function
+def spam(p1: int, p2: str='a', *p3, p4: float, p5: bytes='b', **p6) -> list:  # define a function
     print(p1, p2, p3, p4, p5, p6)
 
 # get argument specifications for a function
@@ -37,3 +37,4 @@ print()
 
 # get frame (function call stack) info
 print("Current frame:", inspect.getframeinfo(inspect.currentframe()))
+print(f"inspect.isbuiltin(print): {inspect.isbuiltin(print)}")

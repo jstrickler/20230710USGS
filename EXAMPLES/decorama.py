@@ -2,7 +2,7 @@
 decorama -- demo of 8 combinations of decorator implementation
 
 decorators applied to functions:
-    1. decorator without args   @deco_func
+    1. decorator withoput args   @deco_func
         decorator returns replacement function
     2. decorator with args  @deco_func(arg, ...)
         decorator returns wrapper

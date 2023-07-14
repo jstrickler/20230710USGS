@@ -11,7 +11,7 @@ def my_task(num):  # function to launch in each thread
         print("Hello from thread {}".format(num))
 
 
-for i in range(10):
+for i in range(16):
     t = Thread(target=my_task, args=(i,))  # create thread
     t.start()  # launch thread
 

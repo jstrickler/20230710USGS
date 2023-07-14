@@ -13,7 +13,8 @@ SEARCH_TERMS = [  # terms to search for; each thread will search some of these t
     'sea', 'formula', 'translation', 'common',
     'business', 'frog', 'muntin', 'automobile',
     'green', 'connect','vial', 'battery', 'computer',
-    'sing', 'park', 'ladle', 'ram', 'dog', 'scalpel'
+    'sing', 'park', 'ladle', 'ram', 'dog', 'scalpel',
+    "syncline", "magma", "arete", "mountain", "aquifer",
 ]
 def main():
     for function in get_data_threaded, get_data_serial:

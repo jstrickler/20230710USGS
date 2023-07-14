@@ -6,6 +6,7 @@
         <planet planetname="Venus"/>
         <planet planetname="Earth">
             <moon>Moon</moon>
+            <satellite>Death Star</satellite>
         </planet>
         <planet planetname="Mars">
             <moon>Deimos</moon>
