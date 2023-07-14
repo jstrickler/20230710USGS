@@ -7,11 +7,11 @@ import requests
 BASE_URL = 'https://www.ncdc.noaa.gov/cdo-web/api/v2/data'
 TOKEN = 'RZvAuJvzafAimtwbJFmORyXQbOpEoVId'
 
-sess = requests.Session()
-sess.headers.update({'token': TOKEN})
-
-response = sess.get(
+response = requests.get(
     BASE_URL,
+    headers = {
+        'token': TOKEN,
+    },
     params={
         'datasetid': 'PRECIP_HLY',
         'stationid': 'COOP:010957',

@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/temperature.py
+src/temperature.egg-info/PKG-INFO
+src/temperature.egg-info/SOURCES.txt
+src/temperature.egg-info/dependency_links.txt
+src/temperature.egg-info/entry_points.txt
+src/temperature.egg-info/requires.txt
+src/temperature.egg-info/top_level.txt

@@ -2,7 +2,7 @@ import numpy as np
 
 sample_data = np.loadtxt(   # Read some data into 2d array
     "../DATA/columns_of_numbers.txt",
-    skiprows=1,
+    skiprows=1,  # skip header line
 )
 
 print("first 5 rows of sample_data:")

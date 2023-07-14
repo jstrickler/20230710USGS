@@ -41,5 +41,12 @@ print("a.cumsum(): {}".format(a.cumsum()))
 print("a.cumprod(): {}".format(a.cumprod()))
 
 print()
+
+
+
 a += 1000  # add 1000 to every element of a (in place)
+print(a)
+
+print(a.shape)
+a.shape = 9,
 print(a)

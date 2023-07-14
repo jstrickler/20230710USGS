@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: temperature
+Version: 1.0.0
+Summary: Temperature conversion functions
+Home-page: https://www.cjtech.com
+Author: John Strickler
+Author-email: John Strickler <jstrickler@gmail.com>
+Project-URL: Homepage, https://github.com/jstrickler/20230710USGS
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

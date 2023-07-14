@@ -1,5 +1,5 @@
 import numpy as np
-data = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [20, 30, 40]]
+data = [[1, 2, 3], [4, 5.0, 6], [7, 8, 9], [20, 30, 40]]
 
 a = np.array(data)  # create array from nested sequences
 print(a, '\n')

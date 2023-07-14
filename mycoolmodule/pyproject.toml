@@ -2,21 +2,21 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-# the above is required 
+# the above is required
 
 ##################################################
-# useful when only using this file, not setup.cfg
+# used when only using this file, not setup.cfg
 ##################################################
 
 [project]
-name = "temperature"
+name = "mycoolmodule"
 version = "1.0.0"
 authors = [
-    { name="John Strickler", email="jstrickler@gmail.com" },
+    { name="John Wick", email="jwick@youdontwannaknow.com" },
 ]
-description = "Temperature conversion functions"
-readme = "README.md"
-requires-python = ">c=3.0"
+description = "Short Description of the Module"
+readme = "README.rst"
+requires-python = ">=3.0"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -24,7 +24,7 @@ classifiers = [
 ]
 
 dependencies = [
-    'roman >= 3.0',
+#    'roman >= 3.0',
 #    'requests[security] < 3',
 #    'subprocess32; python_version < "3.2"',
 ]
@@ -32,10 +32,11 @@ dependencies = [
 #[tool.setuptools]
 #packages=["temperature"]
 
-[project.scripts]
-c2f='temperature:convert._c2f_cli'
-f2c='temperature:convert._f2c_cli'
+# [project.scripts]
+# script1='mycoolmodule:_cli_script1'
+# script2='mycoolmodule:_cli_script2'
+
 
 [project.urls]
-"Homepage" = "https://github.com/jstrickler/20230710USGS"
+"Homepage" = "None"
 

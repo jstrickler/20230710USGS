@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mycoolmodule
+Version: 1.0.0
+Summary: Short Description of the Module
+Home-page: None
+Author: John Wick
+Author-email: John Wick <jwick@youdontwannaknow.com>
+Project-URL: Homepage, None
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/x-rst
+
+Last Updated 2023

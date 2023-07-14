@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel('http://qrc.depaul.edu/Excel_Files/Presidents.xlsx', sheet_name='Master',
+df = pd.read_excel('https://qrc.depaul.edu/Excel_Files/Presidents.xlsx', sheet_name='Master',
                   na_values='NA()')
 df.index = range(1,len(df)+1)
 

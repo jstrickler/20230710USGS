@@ -15,7 +15,16 @@ print(r3)
 print("size is", r3.size)
 print()
 
-r4 = np.linspace(1.0, 2.0, 10)  # 10 equal steps between 1.0 and 2.0
+r4 = np.linspace(1.0, 2.0, 10, retstep=True)  # 10 equal steps between 1.0 and 2.0
 print(r4)
-print("size is", r4.size)
 print()
+
+
+r5 = np.arange(20)
+print(f"r5: {r5}")
+r5.shape = 10, 2
+print(f"r5: {r5}")
+
+
+
+

@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/mycoolmodule.py
+src/mycoolmodule.egg-info/PKG-INFO
+src/mycoolmodule.egg-info/SOURCES.txt
+src/mycoolmodule.egg-info/dependency_links.txt
+src/mycoolmodule.egg-info/top_level.txt
+tests/test_mycoolmodule.py

@@ -10,3 +10,4 @@ def f2c(fahr):
     c = (fahr - 32) * (5.0/9)
     
     return c
+
